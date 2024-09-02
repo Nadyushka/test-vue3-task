@@ -72,10 +72,12 @@
     {
       title: 'По рейтингу',
       sortType: sortingTypes.ratingAcs,
+      direction: 'asc'
     },
     {
       title: 'По рейтингу',
       sortType: sortingTypes.ratingDesc,
+      direction: 'desc'
     },
   ]);
 
