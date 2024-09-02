@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/canban/(.*)", "destination": "/$1" }
+  ]
+}
