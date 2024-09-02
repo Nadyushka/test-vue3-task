@@ -21,9 +21,7 @@
           <template #item="{ item, props }">
             <v-list-item v-bind="props">
               <template v-slot:prepend>
-                <v-icon
-                    :icon="item.raw.direction == 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down'"
-                    class="ml-1" />
+                <v-icon :icon="item.raw.direction == 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down'"/>
               </template>
             </v-list-item>
           </template>
